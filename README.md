@@ -42,6 +42,14 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
         </sub>
       </a>
     </td>
+    <td align="center">
+      <a href="https://github.com/Perkelion">
+        <img src="https://avatars.githubusercontent.com/u/54959915?v=4" width="100px;" alt="Foto do Rafael Cabral no GitHub"/><br>
+        <sub>
+          <b>Rafael Cabral</b>
+        </sub>
+      </a>
+    </td>
   </tr>
 </table>
 
