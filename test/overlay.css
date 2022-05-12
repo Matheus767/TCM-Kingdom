@@ -1,4 +1,10 @@
 /* ! NAVBAR START */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border: 10px;
+}
 .topnav {
     background: transparent;
     float: right;
@@ -36,7 +42,7 @@
     opacity: 0;
     transition: .5s ease;
 }
-.overlay:hover ~ .nav_logo img {
+.overlay:hover .nav_logo img {
     opacity: 0;
     transition: .5s ease;
 }
@@ -48,6 +54,12 @@
 }
 
 /* ? NAVBAR LOGO END */
+#title {
+    text-decoration: none;
+    color: rgb(23, 0, 153);
+    font-weight: 700;
+    padding-right: 360px;
+}
 
 .topnav a {
     color: #000;
