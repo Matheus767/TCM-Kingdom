@@ -1,4 +1,10 @@
 /* ! NAVBAR START */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 1px 1px 30px 5px rgb(177, 177, 177);
+}
 .topnav {
     background: transparent;
     float: right;
@@ -16,39 +22,8 @@
     font-weight: 700;
 }
 
-.nav_logo a:hover {
-    transition: 0.3s;
-    color: red;
-}
-.overlay img {
-    margin-left: 570px;
-    width: 66px;
-    height: auto;
-}
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-}
-.overlay:hover ~ .nav_logo img {
-    opacity: 0;
-    transition: .5s ease;
-}
-.nav_container_logo {
-    position: relative;
-}
-.overlay:hover {
-    opacity: 1;
-}
 
 /* ? NAVBAR LOGO END */
-
 .topnav a {
     color: #000;
     padding: 14px 16px;
