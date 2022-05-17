@@ -3,7 +3,6 @@
     position: fixed;
     top: 0;
     width: 100%;
-    box-shadow: 1px 1px 30px 5px rgb(177, 177, 177);
 }
 .topnav {
     background: transparent;
@@ -18,21 +17,22 @@
 }
 .nav_logo {
     text-decoration: none;
-    color: rgb(23, 0, 153);
+    color: #3F4D79;
     font-weight: 700;
 }
 
 
 /* ? NAVBAR LOGO END */
 .topnav a {
-    color: #000;
+    color: #3F4D79;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
 }
 
 .topnav a:hover {
-    color: black;
+    color: #51586C;
+    text-decoration: none;
 }
 /* ! NAVBAR END */
 body {
@@ -44,3 +44,24 @@ body {
 
     background-size: cover;
 }
+
+a:link {
+    color: #3F4D79;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #3F4D79;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #51586C;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:active {
+    color: #51586C;
+    background-color: transparent;
+    text-decoration: none;
+  }
